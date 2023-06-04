@@ -1,4 +1,4 @@
-# 3. Write a pandas program to add, substract, multiple and divide two apndas series
+# 3. Write a pandas program to add, substract, multiple and divide two pandas series
 
 import pandas as pd
 

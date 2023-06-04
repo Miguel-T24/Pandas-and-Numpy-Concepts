@@ -10,6 +10,3 @@ lista = list(serie)
 print()
 print(lista)
 print(type(lista))
-
-# other way
-# serie.tolist()
