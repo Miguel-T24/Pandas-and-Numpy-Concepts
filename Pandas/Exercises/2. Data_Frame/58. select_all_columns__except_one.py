@@ -1,0 +1,13 @@
+# 58. Wrte a pandas program to select all columns, except one given column in a dataframe
+
+import pandas as pd
+import numpy as np
+
+values = np.random.randint(0,10,(5,3))
+col = ['col1','col2','col3']
+
+df = pd.DataFrame(values, columns=col)
+print(df)
+
+print(df.drop(columns='col2',axis=1))
+print(df)
